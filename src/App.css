@@ -1,0 +1,46 @@
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(100, 99, 99, 0.107);
+}
+.inpt {
+  width: 400px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+.copy-btn {
+  width: 300px;
+  padding: 5px;
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+  background-color: rgba(94, 158, 227, 0.761);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.copy-btn:hover {
+  background-color: rgb(41, 108, 179);
+}
+.lower-div {
+  width: 500px;
+  border: 1px solid red;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
